@@ -75,7 +75,7 @@ fig <- plot_ly(eventi,
 fig
 
 # Salva il grafico interattivo come file HTML
-htmlwidgets::saveWidget(fig, "C:/Users/Benedetta/OneDrive - Politecnico di Torino/Desktop/grafico_eventi_interattivo-durata-intensità.html")
+htmlwidgets::saveWidget(fig, "directory/figura.html")
 
 
 ########CON PCA
