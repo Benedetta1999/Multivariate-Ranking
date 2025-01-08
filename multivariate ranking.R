@@ -6,7 +6,7 @@ library(scales)
 library(plotly)
 
 ###SENZA PESI
-eventi <- readxl::read_excel("C:/Users/Benedetta/OneDrive - Politecnico di Torino/Desktop/Ricerca/CUNEO/Eventi Calso/Eventi Calso - paretofront.xlsx")
+eventi <- readxl::read_excel("file_excel")
 
 eventi <- eventi %>%
   mutate(
